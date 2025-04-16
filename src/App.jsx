@@ -11,16 +11,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={
-            <DefaultLayout>
-              <Login/>
-            </DefaultLayout>
-          }/>   
-          <Route path="/cadastro" element={
-            <DefaultLayout>
-              <Cadastro/>
-            </DefaultLayout>
-          } />
+          <Route path="/" element={<Login/>}/>   
+          <Route path="/cadastro" element={<Cadastro/>} />
           <Route path="/users" element={
             <ProtectedRoute>
               <DefaultLayout>
