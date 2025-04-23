@@ -5,12 +5,10 @@ import Box from "@mui/material/Box";
 
 const DefaultLayout = ({ children }) => {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-      {/* Cabeçalho */}
+    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100px" }}>
       <Header />
-
-      {/* Conteúdo Centralizado */}
-      <Box sx={{
+      <Box
+        sx={{
           flex: 1,
           display: "flex",
           justifyContent: "center",
@@ -20,12 +18,9 @@ const DefaultLayout = ({ children }) => {
       >
         {children}
       </Box>
-
-      {/* Rodapé */}
       <Footer />
     </Box>
   );
 };
 
 export default DefaultLayout;
-

@@ -3,9 +3,10 @@ import Box from "@mui/material/Box";
 
 const Footer = () => {
   return (
-    <Box component="footer"
+    <Box
+      component="footer"
       sx={{
-        backgroundColor: "#D52D2D",
+        backgroundColor: "red",
         width: "100%",
         height: "30px",
         position: "fixed",
@@ -14,6 +15,4 @@ const Footer = () => {
     />
   );
 };
-
 export default Footer;
-
