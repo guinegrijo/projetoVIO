@@ -144,9 +144,9 @@ function listUsers() {
             fullWidth
             variant="contained"
             component={Link}
-            to="/eventos"
+            to="/CreateEvent"
           >
-            IR PARA EVENTOS
+            CreateEvent
           </Button>
           
           <Button
